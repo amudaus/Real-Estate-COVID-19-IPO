@@ -1,6 +1,7 @@
 # Real-Estate-COVID-19-IPO
 
 📚 Project Overview
+
 This project explores how macroeconomic factors, technology trends, and the COVID-19 pandemic influenced real estate price movements in major U.S. tech hub cities between 2019 and 2024. Using public data sources and econometric modeling, we analyzed whether tech activity and pandemic-related disruptions significantly explain changes in the housing market.
 
 We conducted an event study utilizing datasets from:
@@ -13,6 +14,7 @@ Yahoo Finance
 
 
 ⚙️ Setup
+
 All models are based on Ordinary Least Squares (OLS) regression.
 
 All variables are in percentage change form and have passed the Augmented Dickey-Fuller (ADF) test at a 5% significance level, indicating stationarity.
@@ -23,6 +25,7 @@ Our focus is on exploring simultaneous relationships (correlations), not forecas
 
 
 🧠 Research Questions
+
 We structured our study around four key arguments:
 
 Does adding COVID variables to macroeconomic variables improve model performance?
@@ -39,6 +42,7 @@ Does model performance change when comparing pre-COVID, during-COVID, and post-C
 
 
 📊 Key Findings
+
 Adding COVID variables alone did not improve explanatory power (Adjusted R² dropped from 0.1429 to 0.1344).
 
 Adding tech variables improved the model's performance, with Adjusted R² increasing (0.1429 to 0.1561 without COVID variables; 0.1344 to 0.1423 when COVID variables included).
@@ -54,6 +58,7 @@ Tech IPO activity generally had a positive effect on real estate prices, while T
 Real estate prices dropped significantly during COVID but demonstrated strong recovery in the post-COVID period.
 
 ⚡ Limitations
+
 Small sample size, limiting generalizability.
 
 Low statistical significance for many variables across different models.
